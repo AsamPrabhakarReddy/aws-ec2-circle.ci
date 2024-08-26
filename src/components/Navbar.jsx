@@ -33,23 +33,23 @@ const Navbar = () => {
     },
     {
       link: "Features",
-      path: "/services",
+      path: "/",
     },
     {
       link: "About Us",
-      path: "/about",
+      path: "/",
     },
     {
       link: "Enterprise",
-      path: "product",
+      path: "/",
     },
     {
       link: "Pricing",
-      path: "/pricing",
+      path: "/",
     },
     {
       link: "Contact Us",
-      path: "/contact",
+      path: "/",
     },
   ];
 
@@ -64,7 +64,7 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center text-base gap-8">
           <a
-            href=""
+            href="/"
             className="text-2xl font-semibold flex items-center space-x-3"
           >
             
@@ -86,7 +86,7 @@ const Navbar = () => {
 
           <div className="space-x-12 hidden lg:flex items-center">
             <a
-              href="/login"
+              href="/"
               className="bg-cdnColor text-white font-semibold py-2 text-center px-8 rounded-3xl"
             >
               Start trial
@@ -123,14 +123,14 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-              <a href="/about">About Us</a>
+              <a href="/">About Us</a>
             </li>
             <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-              <a href="/contact">Contact</a>
+              <a href="/">Contact</a>
             </li>
 
             <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
-              <a href="/login">Login / Register</a>
+              <a href="/">Login / Register</a>
             </li>
           </ul>
         </div>

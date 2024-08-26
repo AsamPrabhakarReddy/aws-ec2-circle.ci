@@ -1,4 +1,4 @@
-import Accordion from "../components/Accordion.jsx";
+
 
 const FAQ = () => {
   return (
